@@ -17,24 +17,21 @@ int main()
 
     cout << " ---- Enter 1st Customer Details : ---- " << endl ; 
     c1.CustomerDetails();
-    c1.setCustomer(cust_id , cust_name , cust_age , cust_city , m_number , s_validity , t_brand_name);
+   
 
     cout << " ---- Enter 2nd Customer Details : ---- " << endl ; 
     c2.CustomerDetails();
-    c2.setCustomer(cust_id , cust_name , cust_age , cust_city , m_number , s_validity , t_brand_name);
-
+   
     cout << " ---- Enter 3rd Customer Details : ---- " << endl ; 
     c3.CustomerDetails();
-    c3.setCustomer(cust_id , cust_name , cust_age , cust_city , m_number , s_validity , t_brand_name);
+    
 
     cout << " ---- Enter 4th Customer Details : ---- " << endl ; 
     c4.CustomerDetails();
-    c4.setCustomer(cust_id , cust_name , cust_age , cust_city , m_number , s_validity , t_brand_name);
-
+    
     cout << " ---- Enter 5th Customer Details : ---- " << endl ; 
     c5.CustomerDetails();
-    c5.setCustomer(cust_id , cust_name , cust_age , cust_city , m_number , s_validity , t_brand_name);
-
+    
     cout << "---1st Customer : --- " << endl;
     c1.displayCustomerDetails();
 
